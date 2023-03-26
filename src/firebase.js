@@ -1,6 +1,7 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/database';
 
+//Firebase config.
 const config = {
   apiKey: "AIzaSyC4NNLTGJ3RvfzlJSPj7kiC-_bq9VPeK4U",
   authDomain: "react-firebase-blog-3964f.firebaseapp.com",
