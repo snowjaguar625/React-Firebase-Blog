@@ -22,7 +22,6 @@ const Create = ({history}) => {
   const [coverImage, setCoverImage] = useState("");
   const [coverImageAlt, setCoverImageAlt] = useState("");
   const [content, setContent] = useState("");
-
   const createPost = () => {
     const date = generateDate();
     const newPost = {
