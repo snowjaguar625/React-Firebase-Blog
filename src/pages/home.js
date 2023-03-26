@@ -33,7 +33,7 @@ const Home = () => {
     <>
       <h1>Blog posts</h1>
       <p>
-        Welcome to the starter code! We're showing hard-coded data right now.
+        Welcome to the starter code! We are showing hard-coded data right now.
       </p>
       {blogPosts.map(blogPost => (
         <section key={blogPost.slug} className="card">
